@@ -275,9 +275,9 @@ jobs:
   Backest-CI-Stats:
     runs-on: ubuntu-latest
     needs:
-      - Kucoin-Backtests
+      # - Kucoin-Backtests
       - Binance-Backtests
-      # - OKX-Backtests
+      - OKX-Backtests
 
     steps:
       - uses: actions/checkout@v4
